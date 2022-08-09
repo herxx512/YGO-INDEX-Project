@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Website Name/Logo -->
+    <img src="./websiteLogo.png" alt="website logo" id="webLogo">
+    <img src="./puzzle.png" alt="millennium puzzle" id="puzzle">
+
+    <!-- Navigation Links -->
+    <nav class="pages">
+        <a href="./home.html" class="active">HOME</a>
+        <a href="./sequel.html" class="active2">GENERATIONS</a>
+        <a href="./cards.html">CARDS</a>
+    </nav>
+
+    <!-- Search Bar & Button -->
+    <div id="top">
+    <form>
+        <input type="text" placeholder="Card Name" id="in">
+        <button id="search">Search</button>
+    </form>
+
+    <!-- Right Side Title -->
+    <h1 id="titleDeck">My Deck</h1>
+    </div>
+
+    <div id="cards">
+        
+    <!-- Cards -->
+    <div class="cardBlock">
+        <div id="h">
+            <section id="cardsSection"></section>
+        </div>
+    </div>
+
+    <!-- My Deck -->
+    <div class="deckSection">
+        <section id="myDeck"></section>
+    </div>
+
+    </div>
+
+    
+    <!-- Bottom Webpage -->
+    <div class="bottom">
+        <img src="./youtube.png" alt="youtube icon" class="youtube">
+        <img src="./instagram.png" alt="instagram icon" class="instagram">
+        <img src="./websiteLogo-wht.png" alt="bottom image" class="webLogoWhite">
+        <img src="./twitter.png" alt="twitter icon" class="twitter">
+        <img src="./facebook.png" alt="facebook icon" class="facebook">
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="cards.js"></script>
+</body>
+</html>
